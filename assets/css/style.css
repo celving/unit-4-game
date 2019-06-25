@@ -21,3 +21,59 @@ width: 760px;
 margin: auto;
 padding: 30px 15px 30px 15px;
 }
+#target-area{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    float: center;
+    width: 395px;
+    margin: auto;
+    position: relative;
+    left: -198px;
+    background-color: seagreen;
+    padding: 10px 0px 10px 0px;
+}
+#score-area{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    width: 395px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 395px;
+    background-color: lightpink;
+    padding: 10px 0px 10px 0px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#wins-losses-area{
+    font-family: 'Lato', sans-serif;
+    background-color: lightyellow;
+    color: rgb(68, 68, 160);
+    font-size: 24px;
+    width: 790px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+#crystal-area{
+    width: 320px;
+    margin: auto;
+    padding: 0px;
+}
+.crystals{
+    margin: 5px;
+}
+.crystal-1{
+    float:left;
+}
+.crystal-3{
+    float: left;
+}
+body{
+    background-image: url("../images/footer_lodyas.png")
+}
